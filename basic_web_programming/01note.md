@@ -38,3 +38,16 @@ komputer. Hal ini dapat diselesaikan dengan sebuah alat yang menghubungkan banya
 Perkenalkan, alat bernama network switch.<br>
 
 ![network switch](img/img01.jpeg)
+
+Tidak hanya menghubungkan banyak komputer sekaligus, network switch juga dapat terhubung dengan network<br>
+switch lain sehingga jaringan yang terbentuk makin besar.<br>
+
+# Interconnection Network
+
+Semakin besar jaringan yang diciptakan, semakin banyak komputer yang akan terhubung dan berkomunikasi.<br>
+Komputer Anda dapat terhubung dengan komputer keluarga, teman, bahkan hingga tetangga-tetangga. Masih<br>
+banyak pula saudara-saudara kita di belahan bumi lainnya untuk bisa saling terkoneksi. Namun, bukankah<br>
+itu merupakan cara yang tidak efektif, bahkan benar-benar mustahil jika masih menggunakan koneksi kabel<br>
+atau nirkabel bagi user? Oleh karena itu, perkenalkanlah jaringan yang bernama Interconnection Network<br>
+atau yang biasa dikenal dengan Internet.<br>
+

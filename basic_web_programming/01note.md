@@ -4,7 +4,7 @@ Apakah Anda tahu bagaimana website dapat diakses dan ditampilkan dengan baik<br>
 pada user? Sebagian dari Anda pasti memiliki jawaban bahwa website akan tampil jika<br>
 kita memiliki alamat website, browser, dan yang tidak kalah penting adalah koneksi internet.<br>
 Yap, hal tersebut tidaklah salah. Jika berpikir lebih dalam, kita akan mengira bahwa ada<br>
-sesuatu yang terjadi di belakang<br>dan tidak terlihat secara kasat mata manusia. Bagi yang<br>
+sesuatu yang terjadi di belakang dan tidak terlihat secara kasat mata manusia. Bagi yang<br>
 belum paham pengertian browser dan website, kita akan mengulasnya pada materi berikutnya.<br>
 
 Bayangkan bahwa internet merupakan sebuah jalan yang menghubungkan diri kita pada suatu tujuan<br>

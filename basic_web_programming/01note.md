@@ -33,3 +33,8 @@ komputer perlu menyediakan koneksi ke sejumlah komputer tersebut. Pada akhirnya,
 garis-garis yang terhubung dari satu komputer ke komputer lainnya. Hal yang sama dilakukan juga ketika komputer<br>
 lain ingin terhubung.<br>
 
+Bagan di atas memang bukanlah cara yang efektif karena perlu mengatur koneksi untuk masing-masing<br>
+komputer. Hal ini dapat diselesaikan dengan sebuah alat yang menghubungkan banyak komputer sekaligus.<br>
+Perkenalkan, alat bernama network switch.<br>
+
+![network switch](img/img01.jpeg)

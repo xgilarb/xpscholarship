@@ -51,3 +51,22 @@ itu merupakan cara yang tidak efektif, bahkan benar-benar mustahil jika masih me
 atau nirkabel bagi user? Oleh karena itu, perkenalkanlah jaringan yang bernama Interconnection Network<br>
 atau yang biasa dikenal dengan Internet.<br>
 
+Untuk terhubung dengan semua orang di dunia, kita dapat memanfaatkan infrastruktur telepon yang biasanya<br>
+sudah terhubung di rumah-rumah.<br>
+
+![tower isp](img/img02.jpeg)
+
+Kita perlu menghubungkan komputer dengan infrastruktur telepon menggunakan alat yang dinamakan modem.<br>
+Nah, apakah kita sudah dapat berkirim pesan dengan saudara jauh sekarang? Jawabannya, masih ada satu<br>
+langkah lagi, yaitu jaringan kita perlu terhubung ke Internet Service Provider (ISP).<br>
+
+ISP adalah sebuah perusahaan yang mengelola beberapa router khusus yang saling terhubung dengan router<br>
+ISP lainnya. Dengan inilah kita bisa berkomunikasi, bahkan dengan orang di benua lainnya.<br>
+
+![modem isp](img/img03.jpeg)
+
+Begitulah cara internet bekerja sehingga kita bisa terhubung dengan orang lain meskipun dalam kontinen<br>
+yang berbeda. Dengan ini, Anda sudah memiliki modal untuk memahami cara website dapat sampai pada perangkat<br>
+user.<br>
+
+

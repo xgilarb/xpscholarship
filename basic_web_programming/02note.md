@@ -56,3 +56,4 @@ Salah satu aplikasi berbasis web untuk melakukan pengeditan foto, adalah pixlr.c
 gambar berikut.<br>
 
 ![halaman web](img/img08.jpeg)
+

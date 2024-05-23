@@ -142,5 +142,3 @@ browser akan memprosesnya hingga tampil website pada perangkat user.<br>
 Browser memiliki address bar yang merupakan sebuah input bagi user untuk menuliskan alamat website atau yang<br>
 biasa disebut Uniform Resource Locator (URL). Ada tiga bagian pada URL, yaitu protocol (https), domain name<br>
 (dicoding.com), dan file path (alamat halaman web yang sedang ditampilkan).<br>
-
-![gambar](img/img13.jpeg)

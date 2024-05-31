@@ -1,13 +1,13 @@
 # xpdbscholar
 DBS x Dicoding Scholarship | FE <br>
 
-01. Beasiswa dari DBS untuk FE WebDev,<br>
+1st. Beasiswa dari DBS untuk FE WebDev,<br>
 Terdiri dari 3 Materi - untuk Level Dasar:<br>
 
 1. Belajar Dasar Pemrograman Web
 2. Belajar Dasar Pemrograman JavaScript
 3. Belajar Membuat Front-End Web untuk Pemula
 
-02. Google Arcade Fasilitator '24,<br>
+2nd. Google Arcade Fasilitator '24,<br>
 
 1. Network

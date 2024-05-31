@@ -1,7 +1,5 @@
 # xpdbscholar
-DBS x Dicoding Scholarship | FE <br>
-
-1st. Beasiswa dari DBS untuk FE WebDev,<br>
+1st. DBS x Dicoding Scholarship | FE <br>
 
 1. Belajar Dasar Pemrograman Web
 2. Belajar Dasar Pemrograman JavaScript

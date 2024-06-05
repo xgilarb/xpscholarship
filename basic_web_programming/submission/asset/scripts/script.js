@@ -10,17 +10,17 @@ document.addEventListener('DOMContentLoaded', function () {
         if (otherButton !== this && otherButton.nextElementSibling) { // Periksa apakah itu bukan tombol saat ini
           const otherContent = otherButton.nextElementSibling;
           otherContent.style.display = 'none';
-          otherButton.textContent = 'Show Article';
+          otherButton.textContent = 'Show Note';
         }
       });
 
       // Alihkan konten artikel yang diklik
       if (content.style.display === 'none' || content.style.display === '') {
         content.style.display = 'block';
-        this.textContent = 'Hide Article';
+        this.textContent = 'Hide Note';
       } else {
         content.style.display = 'none';
-        this.textContent = 'Show Article';
+        this.textContent = 'Show Note';
       }
     });
   });

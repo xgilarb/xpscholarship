@@ -1,0 +1,14 @@
+/* Style untuk konten dalam tag <p> */
+.xpabout {
+  text-align: left; 
+  line-height: 1.5;
+  margin: 20px 0;
+}
+
+.xsabout {
+  font-weight: bold;
+  background: linear-gradient(to right, #8B0000, #4B0082, #EE82EE);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}

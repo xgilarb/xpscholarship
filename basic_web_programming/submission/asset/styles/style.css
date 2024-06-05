@@ -22,7 +22,15 @@ header, footer {
     background-clip: text;
     color: transparent;
 	text-decoration: none; /* buat hapus dekorasi bawaan link */
+	transition: transform 0.2s ease-in-out;
+}
 
+.site-title:hover {
+    transform: translateY(-2px); /* Efek naik sedikit saat di-hover */
+}
+
+.site-title:active {
+    transform: translateY(2px); /* Efek tenggelam saat di-klik */
 }
 
 nav ul { 

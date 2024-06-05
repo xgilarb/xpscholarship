@@ -1,5 +1,6 @@
 body { 
     font-family: "Nunito", Arial, sans-serif; 
+	font-size: 18px
     margin: 0; 
     padding: 0; 
     box-sizing: border-box; 
@@ -89,7 +90,7 @@ article.show p {
     display: block; 
 } 
 
-/* Efek hover artikel */ 
+/* Efek hover article */ 
 article:hover { 
     transform: scale(1.02); 
     background-color: #dfebf0; 
@@ -126,14 +127,27 @@ aside h2 {
     color: transparent;
 }
 
-aside h3 {
+.xers {
     margin-bottom: 0.5em;
     text-align: left;
+}
+
+.xers a {
     background: linear-gradient(45deg, #66bb6a, #2da978, #1e7d6b);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; /* Safari */
     background-clip: text;
     color: transparent;
+    text-decoration: none; /* buat hapus dekorasi bawaan link */
+}
+
+.xers2 {
+    background: linear-gradient(45deg, #66bb6a, #2da978, #1e7d6b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Safari */
+    background-clip: text;
+    color: transparent;
+    text-decoration: none; /* buat hapus dekorasi bawaan link */
 }
 
 aside a {
@@ -145,7 +159,7 @@ aside a {
     text-decoration: none; /* buat hapus dekorasi bawaan link */
 }
 
-aside b {
+.xers3 {
     background: linear-gradient(45deg, #e94e77, #4e54c8, #8f94fb);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; /* Safari */
@@ -198,7 +212,7 @@ footer {
 } 
 
 
-/* Gaya khusus buat halaman About */
+/* Style khusus buat halaman About */
 
 #tentang-content {
     max-width: 800px;

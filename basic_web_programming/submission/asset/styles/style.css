@@ -1,0 +1,186 @@
+body {
+    font-family: 'Hermit', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 1em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #007bff;
+    padding: 0.5em 1em;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+#content {
+    flex: 3;
+    margin-right: 1em;
+}
+
+article, aside {
+    background-color: #e9ecef;
+    margin-bottom: 1em;
+    padding: 1em;
+    transition: transform 0.3s, background-color 0.3s;
+    position: relative;
+}
+
+article:hover, aside:hover {
+    transform: scale(1.02);
+    background-color: #d4edda;
+}
+
+aside {
+    flex: 1;
+    background-color: #f1f3f5;
+    padding: 1em;
+    transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s;
+    border-radius: 5px;
+}
+
+aside:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    margin-top: 1em;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+article h2 {
+    margin-bottom: 0.5em;
+    text-align: left;
+}
+
+article .article-content {
+    text-align: center;
+}
+
+.toggle-content {
+    align-self: flex-end;
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.toggle-content:hover {
+    background-color: #0056b3;
+}
+
+article p {
+    display: none;
+    margin-top: 1em;
+}
+
+article.show p {
+    display: block;
+}
+
+/* Efek hover artikel */
+article:hover {
+    transform: scale(1.02);
+    background-color: #d4edda;
+}
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+
+    #content {
+        margin-right: 0;
+    }
+
+    article .toggle-content {
+        align-self: flex-start;
+        margin-top: 1em;
+    }
+}
+
+/* Gaya khusus untuk halaman Tentang */
+
+#tentang-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.toggle-content {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.toggle-content:hover {
+    background-color: #0056b3;
+}
+
+#tentang-content article p {
+    display: none;
+}
+
+#tentang-content article.show p {
+    display: block;
+    animation: expand 0.5s ease;
+}
+
+@keyframes expand {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+.site-title {
+    text-align: left;
+    margin-left: 20px;
+}

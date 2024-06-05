@@ -30,3 +30,21 @@ img.style.cursor = 'pointer';
 img.addEventListener('click', function() {
     window.open('https://www.dicoding.com/users/xpynim/academies', '_blank');
 });
+
+// pengaturan floating-up button
+const backToTopBtn = document.getElementById('backToTopBtn');
+
+window.addEventListener('scroll', function() {
+  if (window.pageYOffset > 200) {
+    backToTopBtn.style.display = 'block';
+  } else {
+    backToTopBtn.style.display = 'none';
+  }
+});
+
+backToTopBtn.addEventListener('click', function() {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+});

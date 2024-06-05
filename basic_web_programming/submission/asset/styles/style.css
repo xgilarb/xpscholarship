@@ -51,7 +51,8 @@ nav ul li a:hover {
 
 main { 
     display: flex; 
-    justify-content: space-between; 
+    /* jika ingin menggunakan justify, aside > comment max-height */
+    /* justify-content: space-between; */
     padding: 1em; 
 } 
 
@@ -112,7 +113,8 @@ article:hover, aside:hover {
 aside { 
     flex: 1; 
     background-color: #f1f3f5; 
-    padding: 1em; 
+    padding: 1em;
+    max-height: 800px; 
     transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s; 
     border-radius: 5px; 
 } 
@@ -147,6 +149,7 @@ aside h2 {
     -webkit-text-fill-color: transparent; /* Safari */
     background-clip: text;
     color: transparent;
+    font-weight: bold;
     text-decoration: none; /* buat hapus dekorasi bawaan link */
 }
 
@@ -210,6 +213,24 @@ footer {
         margin-top: 1em; 
     } 
 } 
+
+#backToTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 100;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 30%;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#backToTopBtn:hover {
+  background-color: #0056b3;
+}
 
 
 /* Style khusus buat halaman About */

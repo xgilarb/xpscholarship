@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.dark-mode {
+  background-color: #373E40;
+  color: #000000;
+}
+
+.dark-mode .book_item {
+  border-color: #ffffff;
+}
+
+body, input, button {
+  font-family: 'Comfortaa', sans-serif;
+}
+
+.head_bar {
+  background-color: #77878B;
+  color: #FFFFFF;
+  padding: 32px 20px; 
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.head_bar__title {
+  font-size: 30px;
+  margin: 0;
+  background: linear-gradient(to right, #FF0000, #FFFFFF, #0000FF);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 80px auto 20px;
+  padding-top: 100px;
+}
+
+.left-panel {
+  width: 45%;
+  margin-top: 0px;
+}
+
+.right-panel {
+  width: 50%;
+  margin-top: 0px;
+}
+
+/* Tombol Toggle Mode */
+.toggle-mode {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  z-index: 1100;
+}
+
+/* Emoji matahari dan bulan */
+.toggle-mode .emoji {
+  font-size: 24px;
+  margin-right: 5px;
+}
+
+.book_input, .book_search {
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 12px;
+}
+
+.book_input h2, .book_search h2 {
+  background-color: #305252;
+  color: #FFFFFF;
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px 8px 0 0; 
+  margin-top: 0;
+}
+
+.book_input form, .book_search form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 8px;
+}
+
+.book_input form label, .book_search form label {
+  font-weight: bold;
+  padding: 2px;
+}
+
+body.dark-mode .book_input form label,
+body.dark-mode .book_search form label,
+body.dark-mode .book_item {
+  color: #ffffff; 
+}
+
+body:not(.dark-mode) .book_input form label,
+body:not(.dark-mode) .book_search form label,
+body:not(.dark-mode) .book_item {
+  color: #373E40;
+}
+
+.book_input form input[type=text], .book_input form input[type=number],
+.book_search form input[type=text] {
+  width: calc(100% - 24px);
+  padding: 8px;
+  border: 1px solid #305252;
+  border-radius: 5px;
+}
+
+.book_input form input[type=checkbox] {
+  margin-top: 5px;
+}
+
+.book_input form button, .book_search form button {
+  background-color: #488286;
+  color: #FFFFFF;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.book_shelf {
+  border-radius: 8px;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+
+.book_shelf .book_list {
+  border: none;
+}
+
+.book_shelf h2 {
+  background-color: #305252; 
+  color: #FFFFFF;
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px 8px 0 0;
+  margin-top: 0;
+}
+
+.book_list { 
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 10px; 
+  padding: 10px; 
+  border: 2px solid #488286; 
+  border-radius: 8px; 
+  max-height: 300px; 
+  overflow-y: auto; 
+} 
+
+.book_item { 
+  background: linear-gradient(to bottom right, #488286, #ADD8E6); 
+  border: 1px solid #305252; 
+  border-radius: 8px; 
+  padding: 7px;
+  margin-top: 7px;  
+  min-width: 200px; 
+  max-width: 100%; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: space-between; 
+  animation: fadeIn 0.7s ease-in-out; 
+} 
+
+.book_item h3 {
+  font-size: 15px;
+  margin-bottom: 3px;
+}
+
+.book_item p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.action {
+  display: flex;
+  justify-content: space-around;
+}
+
+.green, .red {
+  background-color: #488286;
+  color: #FFFFFF;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.red {
+  background-color: #373E40;
+}
+
+/* Animasi fade-in */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
